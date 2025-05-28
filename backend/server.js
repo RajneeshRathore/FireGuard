@@ -33,10 +33,10 @@
 //   console.log(`http://localhost:5000`);
 // });
 
-const data = fetch('http://localhost:5000/api/admin/attacks').then((res) => {
-    return res.json();
-}).then((data)=>{
- console.log(data);
-}).catch((err)=>{
-  console.log(err.message);
-})
+// const data = fetch('http://localhost:5000/api/admin/attacks').then((res) => {
+//     return res.json();
+// }).then((data)=>{
+//  console.log(data);
+// }).catch((err)=>{
+//   console.log(err.message);
+// })
